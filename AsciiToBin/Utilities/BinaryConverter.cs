@@ -229,6 +229,7 @@ namespace AsciiToBin.Utilities
         {
             LeftPieceBinaryConverter.NativeStruct native = new LeftPieceBinaryConverter.NativeStruct
             {
+                n_barra = record.n_barra,
                 l_ext = record.l_ext,
                 l_int = record.l_int,
                 ang_sx = record.ang_sx,

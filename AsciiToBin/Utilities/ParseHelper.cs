@@ -102,11 +102,12 @@ namespace AsciiToBin.Utilities
                 "R" => new LeftPieceDataRecord
                 {
                     RecordType = 'R',
-                    l_ext = SafeParseFloat(fields, 1),
-                    l_int = SafeParseFloat(fields, 2),
-                    ang_sx = SafeParseFloat(fields, 3),
-                    ang_dx = SafeParseFloat(fields, 4),
-                    rif = SafeGet(fields, 5),
+                    n_barra = SafeParseShort(fields, 1),
+                    l_ext = SafeParseFloat(fields, 2),
+                    l_int = SafeParseFloat(fields, 3),
+                    ang_sx = SafeParseFloat(fields, 4),
+                    ang_dx = SafeParseFloat(fields, 5),
+                    rif = SafeGet(fields, 6),
                 },
                 _ => null
             };

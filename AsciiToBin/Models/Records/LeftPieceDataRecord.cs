@@ -9,6 +9,8 @@ namespace AsciiToBin.Models.Records
     public class LeftPieceDataRecord : CMP265Record
     {
 
+        public short? n_barra;
+
         private float? _l_ext; // Campo di backing per la proprietà
         public float? l_ext
         {

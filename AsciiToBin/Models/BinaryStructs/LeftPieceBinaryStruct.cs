@@ -11,14 +11,14 @@ namespace AsciiToBin.Models.BinaryStructs
     public struct LeftPieceBinaryStruct
     {
         public short? n_barra;
-        public short? dummy2;
+        //public short? dummy2;
         public float? l_ext;
         public float? l_int;
         public float? ang_sx;
         public float? ang_dx;
 
-        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 8)]
-        public byte[]? dummy;
+        //[MarshalAs(UnmanagedType.ByValArray, SizeConst = 8)]
+        //public byte[]? dummy;
 
         [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 8)]
         public string? rif;
